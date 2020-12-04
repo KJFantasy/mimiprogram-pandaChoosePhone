@@ -1,0 +1,6 @@
+<view class="container" 
+    hover-class="hover_bgc" 
+    style="background-color: {{color}};"
+    bindtap = "col"
+    >
+</view>

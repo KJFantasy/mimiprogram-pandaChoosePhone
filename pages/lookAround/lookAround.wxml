@@ -1,0 +1,25 @@
+<view class="cates">
+    <searchInput></searchInput>
+    <view class="cates_container">
+    <!-- 左侧菜单 -->
+    <scroll-view scroll-y class="left_menu"  >
+        <view class="item_content" bindtap = "col" style="background-color: {{colorOrigin}};">推荐</view>
+        <view class="item_content" >iPhone</view>
+        <view class="item_content">华为</view>
+        <view class="item_content">小米</view>
+        <view class="item_content">OPPO</view>
+        <view class="item_content">vivo</view>
+        <view class="item_content">三星</view>
+        <view class="item_content">一加</view>
+        <view class="item_content">锤子</view>
+        <view class="item_content">黑鲨</view>
+        <view class="item_content">黑莓</view>
+        <view class="item_content">ROG</view>
+        <view class="item_content">中兴</view>   
+    </scroll-view>
+    <!-- 右侧菜单 -->
+    <scroll-view scroll-y class="right_content">
+        <view></view>
+    </scroll-view>
+    </view>
+</view>

@@ -1,0 +1,10 @@
+/**index.wxss**/
+
+.container {
+    width: 500rpx;
+    height: 500rpx;
+}
+
+.hover_bgc {
+    background-color: black;
+}

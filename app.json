@@ -1,0 +1,35 @@
+{
+    "pages": [
+        "pages/choose/choose",
+        "pages/lookAround/lookAround"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#1bbf75",
+        "navigationBarTitleText": "熊猫选机",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#555555",
+        "selectedColor": "#1bbf75",
+        "position": "bottom",
+        "borderStyle": "black",
+        "list": [{
+                "pagePath": "pages/lookAround/lookAround",
+                "text": "看一看",
+                "iconPath": "icons/finger.png",
+                "selectedIconPath": "icons/finger_1.png"
+            },
+            {
+                "pagePath": "pages/choose/choose",
+                "text": "精准选机",
+                "iconPath": "icons/sousuo.png",
+                "selectedIconPath": "icons/sousuo_1.png"
+            }
+        ]
+    },
+
+
+
+    "sitemapLocation": "sitemap.json"
+}
