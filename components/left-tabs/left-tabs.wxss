@@ -47,25 +47,29 @@ page {
   font-weight: 800;
 }
 .h1 {
-  flex: 3;
+  flex: 2;
   font-size: 20rpx;
   margin-top: 45rpx;
+  margin-left: -30rpx;
 }
 .pic {
-  width: 187.5rpx;
-  height: 187.5rpx;
+  width: 120rpx;
+  height: 120rpx;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 33.75rpx;
 }
 .description {
   width: 187.5rpx;
   font-size: 20rpx;
   text-align: center;
-  margin-top: -15rpx;
+  margin-top: -5rpx;
   margin-bottom: 30rpx;
 }
 .showPhone {
   display: flex;
   flex-wrap: wrap;
-}
-.phone {
-  flex: 1;
+  justify-content: space-around;
+  margin-top: 20rpx;
+  margin-bottom: -25rpx;
 }
