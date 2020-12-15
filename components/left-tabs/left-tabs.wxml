@@ -1,0 +1,54 @@
+<view class="cates">
+    <view class="cates_container">
+        <!-- 左侧菜单 -->
+        <scroll-view scroll-y="{{true}}" class="left_menu">
+            <view wx:for="{{tabs}}" wx:key="id" class="item_content {{item.isActive ? 'active::before' : 'passive'}}" bindtap="handleItemTap" data-index="{{index}}">
+                {{item.name}}
+            </view>
+        </scroll-view>
+        <!-- 右侧菜单 -->
+        <scroll-view scroll-y class="right_content">
+            <view class="title">
+                <view class="h3">5G旗舰</view>
+                <view class="h1">强大算力 不止于快</view>
+            </view>
+            <view class="showPhone">
+                <view class="phone">
+                    <image class="pic" src="//img12.360buyimg.com/n2/s270x270_jfs/t1/132022/23/12216/60913/5f86195bEacd08599/c5dc348d3f943324.jpg!q70.dpg.webp" mode="aspectFit" lazy-load="false" />
+                    <view class="description">iPhone 12</view>
+                </view>
+                <view class="phone">
+                    <image class="pic" src="//img12.360buyimg.com/n2/s270x270_jfs/t1/132022/23/12216/60913/5f86195bEacd08599/c5dc348d3f943324.jpg!q70.dpg.webp" mode="aspectFit" lazy-load="false" />
+                    <view class="description">iPhone 12</view>
+                </view>
+                <view class="phone">
+                    <image class="pic" src="//img12.360buyimg.com/n2/s270x270_jfs/t1/132022/23/12216/60913/5f86195bEacd08599/c5dc348d3f943324.jpg!q70.dpg.webp" mode="aspectFit" lazy-load="false" />
+                    <view class="description">iPhone 12</view>
+                </view>
+                <view class="phone">
+                    <image class="pic" src="//img12.360buyimg.com/n2/s270x270_jfs/t1/132022/23/12216/60913/5f86195bEacd08599/c5dc348d3f943324.jpg!q70.dpg.webp" mode="aspectFit" lazy-load="false" />
+                    <view class="description">iPhone 12</view>
+                </view>
+                <view class="phone">
+                    <image class="pic" src="//img12.360buyimg.com/n2/s270x270_jfs/t1/132022/23/12216/60913/5f86195bEacd08599/c5dc348d3f943324.jpg!q70.dpg.webp" mode="aspectFit" lazy-load="false" />
+                    <view class="description">iPhone 12</view>
+                </view>
+                <view class="phone">
+                    <image class="pic" src="//img12.360buyimg.com/n2/s270x270_jfs/t1/132022/23/12216/60913/5f86195bEacd08599/c5dc348d3f943324.jpg!q70.dpg.webp" mode="aspectFit" lazy-load="false" />
+                    <view class="description">iPhone 12</view>
+                </view>
+                <view class="phone">
+                    <image class="pic" src="//img12.360buyimg.com/n2/s270x270_jfs/t1/132022/23/12216/60913/5f86195bEacd08599/c5dc348d3f943324.jpg!q70.dpg.webp" mode="aspectFit" lazy-load="false" />
+                    <view class="description">iPhone 12</view>
+                </view>
+                
+              
+            
+                
+            </view>
+            <view>学生首选</view>
+            <view>游戏手机</view>
+            <view>拍照手机</view>
+        </scroll-view>
+    </view>
+</view>

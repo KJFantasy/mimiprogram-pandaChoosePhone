@@ -38,7 +38,7 @@
     "bundle": false
   },
   "compileType": "miniprogram",
-  "libVersion": "2.0.4",
+  "libVersion": "2.14.1",
   "appid": "wxbae73e7df5b9dca8",
   "projectname": "%E7%86%8A%E7%8C%AB%E9%80%89%E6%9C%BA",
   "debugOptions": {

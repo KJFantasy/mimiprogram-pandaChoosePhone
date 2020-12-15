@@ -1,6 +1,3 @@
-<view class="container" 
-    hover-class="hover_bgc" 
-    style="background-color: {{color}};"
-    bindtap = "col"
-    >
+<view class="div hezi">
+    <view class="">div</view>
 </view>

@@ -1,10 +1,13 @@
-/**index.wxss**/
-
-.container {
-    width: 500rpx;
-    height: 500rpx;
+.div {
+  height: 100rpx;
+  width: 500rpx;
+  background-color: #fff;
 }
 
-.hover_bgc {
-    background-color: black;
+.hezi {
+  width: 10rpx;
+  height: 50%;
+  background: red;
+  position: relative;
+  top: 75%;
 }
