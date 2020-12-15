@@ -1,6 +1,6 @@
 <view class="cates">
     <searchInput></searchInput>
-    <left-tabs tabs="{{tabs}}" binditemChange="handleItemChange">
+    <lookAroundTab tabs="{{tabs}}" binditemChange="handleItemChange">
         <block wx:if="{{tabs[0].isActive}}">
             <view class="title">
                 <view class="h3">旗舰手机</view>
@@ -125,5 +125,5 @@
         </block>
         <block wx:elif="{{tabs[1].isActive}}">11</block>
         <block wx:else>21</block>
-    </left-tabs>
+    </lookAroundTab>
 </view>
