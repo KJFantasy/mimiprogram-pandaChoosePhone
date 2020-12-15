@@ -16,15 +16,15 @@
         "borderStyle": "black",
         "list": [{
                 "pagePath": "pages/lookAround/lookAround",
-                "text": "看一看",
+                "text": "随便看看",
                 "iconPath": "icons/finger.png",
                 "selectedIconPath": "icons/finger_1.png"
             },
             {
                 "pagePath": "pages/choose/choose",
                 "text": "精准选机",
-                "iconPath": "icons/sousuo.png",
-                "selectedIconPath": "icons/sousuo_1.png"
+                "iconPath": "icons/search.png",
+                "selectedIconPath": "icons/search_1.png"
             }
         ]
     },
