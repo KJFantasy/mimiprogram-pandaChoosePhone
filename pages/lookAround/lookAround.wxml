@@ -1,14 +1,17 @@
 <import src="../../resource/template/template.wxml" />
-
 <view class="cates">
     <searchInput></searchInput>
     <lookAroundTab tabs="{{tabs}}" binditemChange="handleItemChange">
         <block wx:if="{{tabs[0].isActive}}">
-            <block wx:for="{{phoneList}}" wx:key="id">
+            <block wx:for="{{recommendation}}" wx:key="id">
                 <template is="phone" data="{{item}}"></template>
             </block>
         </block>
-        <block wx:elif="{{tabs[1].isActive}}">11</block>
-        <block wx:else>21</block>
+        <block wx:elif="{{tabs[1].isActive}}">
+            <block wx:for="{{iPhone}}" wx:key="id">
+                <template is="phone" data="{{item}}"></template>
+            </block>
+        </block>
+        <block wx:else></block>
     </lookAroundTab>
 </view>
