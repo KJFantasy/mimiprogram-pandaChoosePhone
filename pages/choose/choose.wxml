@@ -1,1 +1,16 @@
-<view class="div hezi">这是一个盒子</view>  
+<view>
+  <view wx:for="{{familys}}" wx:key="*this">
+    <view>
+      <text>{{item.familyName}}</text>
+      <view></view>
+      <text wx:for="{{item.users}}" wx:for-item="userItem" wx:key="userItem">
+        <text>{{userItem.name}}</text>
+        <text>,</text>
+      </text>
+    </view>
+  </view>
+ 
+  <view>
+   <button bindtap="updateUser">更新</button>
+  </view>
+</view>

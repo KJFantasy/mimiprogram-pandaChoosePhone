@@ -1,0 +1,12 @@
+<template name="phone" wx:for="{{phoneList}}" wx:key="item">
+    <view class="title">
+        <view class="title_1">{{item.title_1}}</view>
+        <view class="title_2">{{item.title_2}}</view>
+    </view>
+    <view class="showPhone" wx:for="{{item.phone}}" wx:for-item="phoneInfoItem" wx:key="phoneInfoItem">
+        <view class="phone">
+            <image class="phoneImage" src="{{phoneInfoItem.imgUrl}}" mode="aspectFit" lazy-load="false" />
+            <view class="phoneInfo">{{phoneInfoItem.info}}</view>
+        </view>
+    </view>
+</template>
