@@ -17,24 +17,16 @@
             <input type="number" maxlength="5" class="inputPriceRange" placeholder="最高价"></input>
         </view>
         <view class="priceRangeSeg">
-            <view class="price">不限价格</view>
-            <view class="price">0-1499</view>
-            <view class="price">1500-1999</view>
-            <view class="price">2000-2999</view>
-            <view class="price">3000-3999</view>
-            <view class="price">4000以上</view>
+            <view class="price" wx:for="{{priceRange}}" wx:key="id">{{item.name}}</view>
+            
         </view>
     </view>
 </view>
 <view class="preference">
     <view class="title">偏好</view>
     <view class="preferenceDiv">
-        <view class="preferItem">性能</view>
-        <view class="preferItem">拍照</view>
-        <view class="preferItem">视频</view>
-        <view class="preferItem">游戏</view>
-        <view class="preferItem">轻薄</view>
-        <view class="preferItem">续航</view>
+        <view class="preferItem" wx:for="{{preference}}" wx:key="id">{{item.name}}</view>
+        
     </view>
 </view>
 <view class="bottomButton">
