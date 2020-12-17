@@ -3,4 +3,7 @@ Page({
     data: {
         
       },
+    methods: {
+        
+    }
 });

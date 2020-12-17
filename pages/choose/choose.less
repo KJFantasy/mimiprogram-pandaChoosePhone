@@ -1,80 +1,147 @@
 page {
-    color: #555555;
-  }
-  
-  .cates {
-    height: 100%;
-    .cates_container {
-      height: ~"calc(100vh - 90rpx)";
-      display: flex;
-      .left_menu {
-        flex: 2;
-        .item_content {
-          width: 100%;
-          height: 90rpx;
-          text-align: center;
-          line-height: 90rpx;
-          position: relative;
-        }
-      }
-      .right_content {
-        flex: 6;
-      }
-    }
-  }
-  
-  .active::before {
-    content: " ";
-    width: 10rpx;
-    height: 50%;
-    background-color: #1bbf75;
-    color: #1bbf75;
-    position: absolute;
-    top: 25%;
-    left: 0%;
-  }
-  .passive {
-    color: #555555;
-    background-color: #f2f2f2;
-  }
-  
-  .title {
-    display: flex;
-    .h3 {
-      flex: 1;
-      margin-top: 30rpx;
-      margin-left: 30rpx;
-      color: #000;
-      font-size: 35rpx;
-      font-weight: 800;
-    }
-    .h1 {
-      flex: 2;
-      font-size: 20rpx;
-      margin-top: 45rpx;
-      margin-left: -30rpx;
-    }
-  }
-  
-  .showPhone {
-    display: flex;
-    flex-wrap: wrap;
-    // justify-content: space-around;
-    margin-top: 20rpx;
-    margin-bottom: -25rpx;
-    .pic {
+  color: #555;
+}
+.rankingList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15rpx;
+  height: 150rpx;
+  .rankingImg {
+    align-self: center;
+    .phoneImage {
       width: 120rpx;
       height: 120rpx;
-      margin: 0 auto;
-      text-align: center;
-      margin-left: 33.75rpx;
+      align-self: center;
+      margin-left: 20rpx;
     }
-    .description {
-      width: 187.5rpx;
-      font-size: 20rpx;
-      text-align: center;
-      margin-top: -5rpx;
-      margin-bottom: 30rpx;
+    .phoneImage::after {
+      content: "";
+      display: block;
+      width: 18rpx;
+      height: 18rpx;
+      border-top: 4rpx solid rgb(190, 190, 190);
+      border-right: 4rpx solid rgb(190, 190, 190);
+      transform: rotate(45deg);
+      position: absolute;
+      right: 24rpx;
+      margin-top: -60rpx;
     }
   }
-  
+  .ranking {
+    align-self: center;
+    margin-left: 25rpx;
+    margin-top: -10rpx;
+    color: black;
+    font-weight: 800;
+    font-size: 35rpx;
+    .rankingInfo {
+      color: #555555;
+      font-size: 20rpx;
+      margin-top: 10rpx;
+      font-weight: 400;
+    }
+  }
+}
+.separation {
+  height: 15rpx;
+  background-color: rgba(85, 85, 85, 0.1);
+}
+
+.choosePhone {
+  font-size: 25rpx;
+  margin-top: 30rpx;
+  .priceRange {
+    margin-top: 30rpx;
+    .longPriceRange {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 700rpx;
+      margin: 0 auto;
+      .connecter {
+        align-self: center;
+      }
+      .inputPriceRange {
+        width: 300rpx;
+        height: 50rpx;
+        background-color: rgba(185, 185, 185, 0.15);
+        border-radius: 25rpx;
+        text-align: center;
+      }
+    }
+    .priceRangeSeg {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 700rpx;
+      margin: 0 auto;
+      .price {
+        width: 220rpx;
+        height: 50rpx;
+        text-align: center;
+        line-height: 50rpx;
+        background-color: rgba(185, 185, 185, 0.15);
+        border-radius: 25rpx;
+        margin-top: 20rpx;
+      }
+    }
+  }
+}
+.preference {
+  font-size: 25rpx;
+  margin-top: 30rpx;
+  .preferenceDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 700rpx;
+    margin: 0 auto;
+    .preferItem {
+      width: 220rpx;
+      height: 50rpx;
+      text-align: center;
+      line-height: 50rpx;
+      background-color: rgba(185, 185, 185, 0.15);
+      border-radius: 25rpx;
+      margin-top: 20rpx;
+    }
+  }
+}
+.title {
+  margin-left: 30rpx;
+  font-size: 30rpx;
+  position: relative;
+}
+.title::before {
+  content: " ";
+  width: 10rpx;
+  height: 100%;
+  background-color: #1bbf75;
+  color: #1bbf75;
+  position: absolute;
+  left: -30rpx;
+}
+
+.bottomButton {
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  bottom: 0rpx;
+  text-align: center;
+  font-size: 35rpx;
+  height: 100rpx;
+  .reset {
+    width: 250rpx;
+    height: 100rpx;
+    align-self: center;
+    line-height: 100rpx;
+    background-color: rgba(185, 185, 185, 0.15);
+    border-top: 1px solid rgba(185, 185, 185, 0.3);
+  }
+  .enter {
+    width: 500rpx;
+    color: white;
+    background-color: #1bbf75;
+    line-height: 100rpx;
+  }
+}
