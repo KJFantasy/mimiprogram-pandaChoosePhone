@@ -144,3 +144,7 @@ page {
   background-color: #1bbf75;
   line-height: 100rpx;
 }
+.active {
+  background-color: #1bbf75 !important;
+  color: white!important;
+}

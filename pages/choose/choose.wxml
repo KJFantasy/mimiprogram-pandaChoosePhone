@@ -17,7 +17,7 @@
             <input type="number" maxlength="5" class="inputPriceRange" placeholder="最高价"></input>
         </view>
         <view class="priceRangeSeg">
-            <view class="price" wx:for="{{priceRange}}" wx:key="id">{{item.name}}</view>
+            <view class="price {{item.isActive ? 'active' : ''}}" wx:for="{{priceRange}}" wx:key="id" bindtap="handlePriceRangeBgc" data-index="{{index}}">{{item.name}}</view>
             
         </view>
     </view>
@@ -25,11 +25,12 @@
 <view class="preference">
     <view class="title">偏好</view>
     <view class="preferenceDiv">
-        <view class="preferItem" wx:for="{{preference}}" wx:key="id">{{item.name}}</view>
-        
+        <view class="preferItem {{item.isActive ? 'active' : ''}}" wx:for="{{preference}}" wx:key="id"
+        bindtap="handlePreferBgc" data-index="{{index}}">{{item.name}}</view>
+
     </view>
 </view>
 <view class="bottomButton">
-    <view class="reset">重置</view>
+    <view class="reset" bindtap="reset">重置</view>
     <view class="enter">确定</view>
 </view>
