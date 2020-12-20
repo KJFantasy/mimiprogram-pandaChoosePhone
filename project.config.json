@@ -39,7 +39,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.1",
-  "appid": "wxbae73e7df5b9dca8",
+  "appid": "wx0a6cb0400fc135a9",
   "projectname": "%E7%86%8A%E7%8C%AB%E9%80%89%E6%9C%BA",
   "debugOptions": {
     "hidedInDevtools": []
@@ -61,8 +61,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/choose/choose",
-          "pathName": "pages/choose/choose",
+          "name": "pages/lookAround/lookAround",
+          "pathName": "pages/lookAround/lookAround",
           "query": "",
           "scene": null
         }

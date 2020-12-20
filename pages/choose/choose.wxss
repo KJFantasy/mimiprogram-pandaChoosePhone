@@ -50,9 +50,6 @@ page {
   font-size: 25rpx;
   margin-top: 30rpx;
 }
-.choosePhone .priceRange {
-  margin-top: 30rpx;
-}
 .choosePhone .priceRange .longPriceRange {
   display: flex;
   flex-wrap: wrap;
@@ -143,6 +140,8 @@ page {
   color: white;
   background-color: #1bbf75;
   line-height: 100rpx;
+  border-radius: 0%;
+  font-size: 35rpx;
 }
 .active {
   background-color: #1bbf75 !important;

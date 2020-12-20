@@ -1,0 +1,35 @@
+<import src="../../resource/choosedPhoneTemplate/choosedPhoneTemplate.wxml" />
+<block wx:if="{{globalBuffer[0].isActive}}">
+    <block wx:for="{{price_999}}" wx:key="id">
+        <template is="recommendPhone" data="{{item}}"></template>
+    </block>
+</block>
+<block wx:if="{{globalBuffer[1].isActive}}">
+    <block wx:for="{{price_1999}}" wx:key="id">
+        <template is="recommendPhone" data="{{item}}"></template>
+    </block>
+</block>
+<block wx:if="{{globalBuffer[2].isActive}}">
+    <block wx:for="{{price_2999}}" wx:key="id">
+        <template is="recommendPhone" data="{{item}}"></template>
+    </block>
+</block>
+<block wx:if="{{globalBuffer[3].isActive}}">
+    <block wx:for="{{price_3999}}" wx:key="id">
+        <template is="recommendPhone" data="{{item}}"></template>
+    </block>
+</block>
+<block wx:if="{{globalBuffer[4].isActive}}">
+    <block wx:for="{{price_4999}}" wx:key="id">
+        <template is="recommendPhone" data="{{item}}"></template>
+    </block>
+</block>
+<block wx:if="{{globalBuffer[5].isActive}}">
+    <block wx:for="{{price_unlimited}}" wx:key="id">
+        <template is="recommendPhone" data="{{item}}"></template>
+    </block>
+</block>
+<view class="bottomButton">
+    <button class="rechoose" bindtap="rechoose">重新选择</button>
+    <button class="share" open-type="share" bindtap="test">告诉朋友</button>
+</view>

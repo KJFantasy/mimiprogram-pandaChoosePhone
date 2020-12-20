@@ -1,0 +1,13 @@
+<template name="recommendPhone">
+    <view class="showPhone">
+        <view class="phone">
+            <image class="image" src="{{item.imgUrl}}" mode="aspectFit" lazy-load="false"></image>
+            <view class="phoneSpecification">{{item.title_1}}</view>
+            <view class="phoneSpecInfo">{{item.title_2}}</view>
+            <view class="priveDiv">
+                <view class="priceTitle">预计售价：</view>
+                <view class="price">{{item.estimatedPrice}}</view>
+            </view>
+        </view>
+    </view>
+</template>

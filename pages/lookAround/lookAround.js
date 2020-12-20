@@ -257,6 +257,306 @@ Page({
         ],
       },
     ],
+    huawei: [
+      {
+        id: 0,
+        title_1: "Mate系列",
+        title_2: "爵士人生",
+        phone: [
+          {
+            imgUrl:
+              "https://img12.360buyimg.com/n2/s270x270_jfs/t1/135650/26/13207/74562/5f91a4bbE16ccc689/912b028c15e6d854.jpg!q70.dpg",
+            info: "华为 Mate 40 Pro+",
+          },
+          {
+            imgUrl:
+              "https://img12.360buyimg.com/n2/s240x240_jfs/t1/134458/1/19973/77882/5fd72de1Eec776a32/027c641d3669f7ec.jpg!q70.jpg",
+            info: "华为 Mate 40",
+          },
+          {
+            imgUrl:
+              "https://img11.360buyimg.com/n2/s240x240_jfs/t1/152671/11/3093/141850/5f917c84Ecd7cb45d/2fc85ec507a7a055.jpg!q70.jpg",
+            info: "华为 Mate 30 Pro",
+          },
+          {
+            imgUrl:
+              "https://img11.360buyimg.com/n2/s240x240_jfs/t1/145926/35/11669/139480/5f917c42E2d145d44/ab88025bedcf729c.jpg!q70.jpg",
+            info: "华为 Mate 30",
+          },
+        ],
+      },
+    ],
+    xiaomi: [
+      {
+        id: 0,
+        title_1: "旗舰系列",
+        title_2: "为发烧而生",
+        phone: [
+          {
+            imgUrl:
+              "https://img14.360buyimg.com/n2/s270x270_jfs/t1/140839/13/5234/103954/5f338529E0a07989c/34d17d79e564a530.jpg!q70.dpg",
+            info: "小米 10 至尊纪念版",
+          },
+          {
+            imgUrl:
+              "https://img12.360buyimg.com/n2/s270x270_jfs/t1/103824/9/13856/110894/5e607ee2E751d3753/5e921c3a11f04398.jpg!q70.dpg",
+            info: "小米 10",
+          },
+          {
+            imgUrl:
+              "https://img14.360buyimg.com/n2/s270x270_jfs/t1/108026/34/14255/109472/5ea55bdfEedeec507/e21a69a1456dd33c.jpg!q70.dpg",
+            info: "小米 10 青春版",
+          },
+        ],
+      },
+    ],
+    OPPO: [
+      {
+        id: 0,
+        title_1: "Reno系列",
+        title_2: "人像四摄 超级快充",
+        phone: [
+          {
+            imgUrl:
+              "https://img10.360buyimg.com/n2/s240x240_jfs/t1/145997/34/18284/122247/5fd58a70E4007b0a6/a43c9f8dadf9f2ef.jpg!q70.jpg",
+            info: "OPPO Reno5 Pro",
+          },
+          {
+            imgUrl:
+              "https://img12.360buyimg.com/n2/s240x240_jfs/t1/151380/38/10990/108009/5fdc0c19Ebd1bf616/589dcbba6a0ac118.jpg!q70.jpg",
+            info: "OPPO Reno5",
+          },
+          {
+            imgUrl:
+              "https://img12.360buyimg.com/n2/s240x240_jfs/t1/118010/19/12664/122321/5f12b22dEdd4b5b71/6047ec35c7469808.jpg!q70.jpg",
+            info: "OPPO Reno4 Pro",
+          },
+        ],
+      },
+    ],
+    vivo: [
+      {
+        id: 0,
+        title_1: "旗舰系列",
+        title_2: "专业影像 蔡司镜头",
+        phone: [
+          {
+            imgUrl:
+              "https://img14.360buyimg.com/n2/s270x270_jfs/t1/146262/35/18051/42099/5fd4a49cE8f205cec/62bf25fe6d1aa9e5.jpg!q70.dpg",
+            info: "vivo X60 Pro",
+          },
+          {
+            imgUrl:
+              "https://img14.360buyimg.com/n2/s270x270_jfs/t1/129204/32/16376/57218/5f980800E447304bf/4c3e44c2050dbcf4.jpg!q70.dpg",
+            info: "vivo X50 Pro+",
+          },
+          {
+            imgUrl:
+              "https://img13.360buyimg.com/n2/s270x270_jfs/t1/125496/19/5473/388453/5ef3097dE95fe1da4/407a505c11d40d79.jpg!q70.dpg",
+            info: "vivo X50",
+          },
+        ],
+      },
+    ],
+    honor: [
+      {
+        id: 0,
+        title_1: "数字旗舰",
+        title_2: "勇敢做自己 做自己最荣耀",
+        phone: [
+          {
+            imgUrl:
+              "https://img10.360buyimg.com/n2/s240x240_jfs/t1/109773/5/12845/66987/5e99da56Ec087f7d6/808b6fe515435501.jpg!q70.jpg",
+            info: "荣耀30 Pro+",
+          },
+          {
+            imgUrl:
+              "https://img10.360buyimg.com/n2/s240x240_jfs/t1/123339/14/9726/89778/5f367514Ee6fd5fe2/665827bcb344eecf.jpg!q70.jpg",
+            info: "荣耀30 Pro",
+          },
+          {
+            imgUrl:
+              "https://img12.360buyimg.com/n2/s270x270_jfs/t1/66943/25/7434/745611/5d563118E7f2e5077/a92fd7c6b40597ac.png!q70",
+            info: "荣耀20 Pro",
+          },
+          {
+            imgUrl:
+              "https://img10.360buyimg.com/n2/s240x240_jfs/t1/92468/5/1915/727351/5dc7a313E8e476b54/0e2575edb82b09ec.png",
+            info: "荣耀20",
+          },
+        ],
+      },
+    ],
+    oneplus: [
+      {
+        id: 0,
+        title_1: "数字旗舰",
+        title_2: "不将就 Never Settle",
+        phone: [
+          {
+            imgUrl:
+              "https://img14.360buyimg.com/n2/s240x240_jfs/t1/102178/11/19054/171376/5e985077E8c4147dc/396e3307b14e6a91.jpg!q70.jpg",
+            info: "一加8 Pro",
+          },
+          {
+            imgUrl:
+              "https://img13.360buyimg.com/n2/s240x240_jfs/t1/140612/19/10777/69703/5f87d3c0E66ae5619/41ff823b47c70920.jpg!q70.jpg",
+            info: "一加 8T",
+          },
+          {
+            imgUrl:
+              "https://img12.360buyimg.com/n2/s240x240_jfs/t1/109397/31/12641/171206/5e984fe7E56b8e7a3/cf7a207c3de8c06e.jpg!q70.jpg",
+            info: "一加 8",
+          },
+        ],
+      },
+    ],
+    meizu: [
+      {
+        id: 0,
+        title_1: "数字旗舰",
+        title_2: "轻易不说完美",
+        phone: [
+          {
+            imgUrl:
+              "https://img12.360buyimg.com/n2/s240x240_jfs/t1/114037/35/13461/52919/5f22f189E75eaa8bf/72471f5430611933.jpg!q70.jpg",
+            info: "魅族 17 Pro",
+          },
+          {
+            imgUrl:
+              "https://img10.360buyimg.com/n2/s240x240_jfs/t1/135821/23/2709/206234/5eee2f73E082b8d23/a9d7992529e411b8.jpg!q70.jpg",
+            info: "魅族 17",
+          },
+          {
+            imgUrl:
+              "https://img10.360buyimg.com/n2/s270x270_jfs/t1/141089/15/11651/53115/5f92a7edE9c2c7f87/f487c309c7788167.jpg!q70.dpg",
+            info: "魅族 16T",
+          },
+          {
+            imgUrl:
+              "https://img14.360buyimg.com/n2/s270x270_jfs/t1/111327/37/15474/66382/5f3ce14bE751dbe12/130a30429017dea2.jpg!q70.dpg",
+            info: "魅族 16Xs",
+          },
+        ],
+      },
+    ],
+    redmi: [
+      {
+        id: 0,
+        title_1: "旗舰系列",
+        title_2: "5G先锋 无所畏惧",
+        phone: [
+          {
+            imgUrl:
+              "https://img13.360buyimg.com/n2/s270x270_jfs/t1/147326/14/12559/224942/5f9b88edE530fac65/be750ece1e3f1e8d.png!q70",
+            info: "红米 K30S",
+          },
+          {
+            imgUrl:
+              "https://img13.360buyimg.com/n2/s270x270_jfs/t1/107928/29/17769/387348/5ebcbf83E3eff351d/39c50bc2e712651b.png!q70",
+            info: "红米 K30 Pro",
+          },
+          {
+            imgUrl:
+              "https://img10.360buyimg.com/n2/s240x240_jfs/t1/87913/22/6908/148626/5df75272E07f8fab2/0c930ccc45462cfd.jpg!q70.jpg",
+            info: "红米 K30",
+          },
+        ],
+      },
+    ],
+    sumsung: [
+      {
+        id: 0,
+        title_1: "Note系列",
+        title_2: "卓然天成 为你而生",
+        phone: [
+          {
+            imgUrl:
+              "https://img14.360buyimg.com/n2/s270x270_jfs/t1/128785/40/8932/67952/5f2d0cfbEef0bb230/d49bb3021e21d778.jpg!q70.dpg",
+            info: "三星 Note20 Ultra",
+          },
+          {
+            imgUrl:
+              "https://img13.360buyimg.com/n2/s270x270_jfs/t1/114311/12/14270/93362/5f2d0b2eEe2afa02f/85919467d6c7fc38.jpg!q70.dpg",
+            info: "三星 Note20",
+          },
+        ],
+      },
+    ],
+    Smartisan: [
+      {
+        id: 0,
+        title_1: "旗舰系列",
+        title_2: "明明可以靠脸 偏偏要靠才华",
+        phone: [
+          {
+            imgUrl:
+              "https://img10.360buyimg.com/n2/s240x240_jfs/t1/139267/34/11514/134041/5f8edafaE7e40017d/0f86494c7569cad0.jpg!q70.jpg",
+            info: "锤子 坚果 R2",
+          },
+        ],
+      },
+    ],
+    ZTE: [
+      {
+        id: 0,
+        title_1: "天机旗舰",
+        title_2: "未来 不等待",
+        phone: [
+          {
+            imgUrl:
+              "https://img10.360buyimg.com/n2/s240x240_jfs/t1/145519/3/7210/54255/5f4df8b1E24c84a77/db576bae737a07af.jpg!q70.jpg",
+            info: "中兴 Axon 20",
+          },
+
+          {
+            imgUrl:
+              "https://img12.360buyimg.com/n2/s270x270_jfs/t1/126108/36/6536/95369/5f03d9e1Ed0cf690d/00364176974299b6.jpg!q70.dpg",
+            info: "中兴 Axon 11",
+          },
+        ],
+      },
+    ],
+    lenovo: [
+      {
+        id: 0,
+        title_1: "乐檬系列",
+        title_2: "永不止步 never stand still",
+        phone: [
+          {
+            imgUrl:
+              "https://img14.360buyimg.com/n2/s270x270_jfs/t1/149610/13/17555/80183/5fd06d77Ef92040f1/757f488b6a26215a.jpg!q70.dpg",
+            info: "乐檬 K12 Pro",
+          },
+
+          {
+            imgUrl:
+              "https://img12.360buyimg.com/n2/s270x270_jfs/t1/153705/28/9095/52745/5fd1c18fE299ef660/3fd8bd0a284e7257.jpg!q70.dpg",
+            info: "乐檬 K12",
+          },
+        ],
+      },
+    ],
+    realme: [
+      {
+        id: 0,
+        title_1: "旗舰系列",
+        title_2: "敢越级",
+        phone: [
+          {
+            imgUrl:
+              "https://img11.360buyimg.com/n2/s240x240_jfs/t1/133473/9/7856/118125/5f431a91E11f1c01f/9cc05dd2930f1d53.jpg!q70.jpg",
+            info: "真我 X7 Pro",
+          },
+
+          {
+            imgUrl:
+              "https://img12.360buyimg.com/n2/s270x270_jfs/t1/111194/40/1591/146910/5e998744E96519292/3aff4ad707222db4.jpg!q70.dpg",
+            info: "真我 X50 Pro",
+          },
+        ],
+      },
+    ],
   },
   /**
    * 生命周期函数--监听页面加载

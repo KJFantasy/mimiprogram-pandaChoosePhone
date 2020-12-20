@@ -1,6 +1,6 @@
 <import src="../../resource/template/template.wxml" />
 <view class="cates">
-    <searchInput></searchInput>
+    <!-- <searchInput></searchInput> -->
     <lookAroundTab tabs="{{tabs}}" binditemChange="handleItemChange">
         <block wx:if="{{tabs[0].isActive}}">
             <block wx:for="{{recommendation}}" wx:key="id">
@@ -12,6 +12,70 @@
                 <template is="phone" data="{{item}}"></template>
             </block>
         </block>
-        <block wx:else></block>
+        <block wx:elif="{{tabs[2].isActive}}">
+            <block wx:for="{{huawei}}" wx:key="id">
+                <template is="phone" data="{{item}}"></template>
+            </block>
+        </block>
+        <block wx:elif="{{tabs[3].isActive}}">
+            <block wx:for="{{xiaomi}}" wx:key="id">
+                <template is="phone" data="{{item}}"></template>
+            </block>
+        </block>
+        <block wx:elif="{{tabs[4].isActive}}">
+            <block wx:for="{{OPPO}}" wx:key="id">
+                <template is="phone" data="{{item}}"></template>
+            </block>
+        </block>
+        <block wx:elif="{{tabs[5].isActive}}">
+            <block wx:for="{{vivo}}" wx:key="id">
+                <template is="phone" data="{{item}}"></template>
+            </block>
+        </block>
+        <block wx:elif="{{tabs[6].isActive}}">
+            <block wx:for="{{honor}}" wx:key="id">
+                <template is="phone" data="{{item}}"></template>
+            </block>
+        </block>
+        <block wx:elif="{{tabs[7].isActive}}">
+            <block wx:for="{{oneplus}}" wx:key="id">
+                <template is="phone" data="{{item}}"></template>
+            </block>
+        </block>
+        <block wx:elif="{{tabs[8].isActive}}">
+            <block wx:for="{{meizu}}" wx:key="id">
+                <template is="phone" data="{{item}}"></template>
+            </block>
+        </block>
+        <block wx:elif="{{tabs[9].isActive}}">
+            <block wx:for="{{redmi}}" wx:key="id">
+                <template is="phone" data="{{item}}"></template>
+            </block>
+        </block>
+        <block wx:elif="{{tabs[10].isActive}}">
+            <block wx:for="{{sumsung}}" wx:key="id">
+                <template is="phone" data="{{item}}"></template>
+            </block>
+        </block>
+        <block wx:elif="{{tabs[11].isActive}}">
+            <block wx:for="{{Smartisan}}" wx:key="id">
+                <template is="phone" data="{{item}}"></template>
+            </block>
+        </block>
+        <block wx:elif="{{tabs[12].isActive}}">
+            <block wx:for="{{ZTE}}" wx:key="id">
+                <template is="phone" data="{{item}}"></template>
+            </block>
+        </block>
+        <block wx:elif="{{tabs[13].isActive}}">
+            <block wx:for="{{lenovo}}" wx:key="id">
+                <template is="phone" data="{{item}}"></template>
+            </block>
+        </block>
+        <block wx:else>
+            <block wx:for="{{realme}}" wx:key="id">
+                <template is="phone" data="{{item}}"></template>
+            </block>
+        </block>
     </lookAroundTab>
 </view>

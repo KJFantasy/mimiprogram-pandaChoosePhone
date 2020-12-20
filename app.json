@@ -1,7 +1,8 @@
 {
     "pages": [
         "pages/choose/choose",
-        "pages/lookAround/lookAround"
+        "pages/lookAround/lookAround",
+        "pages/choosedPhone/choosedPhone"
     ],
     "window": {
         "backgroundTextStyle": "light",
